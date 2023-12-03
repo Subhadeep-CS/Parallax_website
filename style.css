@@ -1,0 +1,71 @@
+/* re-sizing our body */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "jost";
+    color: red;
+}
+/* adding style to section */
+section{
+    height: 100vh; /*For full screen */
+    width: 100%;
+    background-image: 
+    linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ),
+    url('./image/background1.jpg');
+    /* add background-size */
+    background-size: 100% auto;
+    /* center the item */
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    /* controling image scroll */
+    background-attachment: fixed; 
+    /* fixed meansbackground image is fixed */
+}
+h2{
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+p{
+    font-size: 20px;
+    color: #fff;
+}
+.section2{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: 
+    linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ),
+    url('./image/background3.jpg');
+}
+.section3{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: 
+    linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ),
+    url('./image/background4.jpg');
+    background-attachment: fixed;
+}
+.section4{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: 
+    linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ),
+    url('./image/background2.jpg');
+}
